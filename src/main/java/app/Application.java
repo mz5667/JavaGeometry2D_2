@@ -30,6 +30,11 @@ public class Application implements Consumer<Event> {
     /**
      * Конструктор окна приложения
      */
+    /**
+     * радиус скругления элементов
+     */
+    public static final int C_RAD_IN_PX = 4;
+
     public Application() {
         // создаём окно
         window = App.makeWindow();
